@@ -1,0 +1,10 @@
+{
+  "name": "story-broker-scratch",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Throwaway fixture for proving the story-runner (React pack, npm prefetch, offline tests, App push).",
+  "scripts": { "test": "vitest run" },
+  "dependencies": { "react": "19.0.0", "react-dom": "19.0.0" },
+  "devDependencies": { "vitest": "3.2.4" }
+}
