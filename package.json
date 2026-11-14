@@ -4,7 +4,20 @@
   "private": true,
   "type": "module",
   "description": "Throwaway fixture for proving the story-runner (React pack, npm prefetch, offline tests, App push).",
-  "scripts": { "test": "vitest run" },
-  "dependencies": { "react": "19.0.0", "react-dom": "19.0.0" },
-  "devDependencies": { "vitest": "3.2.4" }
+  "scripts": {
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.14.0",
+    "globals": "^17.14.0",
+    "vitest": "3.2.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
 }
